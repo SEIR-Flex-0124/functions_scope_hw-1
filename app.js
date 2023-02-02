@@ -124,7 +124,6 @@ function findNeedle(arr) {
     
 }
 
-
 let haystack = ['boots', 'belts', 'buckles', 'belfreys', 'spoons', 'needle', 'mice', 'vagrants', 'oneSinglePoodle', 'potions'];
 
 findNeedle(haystack);
@@ -132,8 +131,22 @@ findNeedle(haystack);
 // 10. sumPositive
 function sumPositive(arr) {
     // YOUR CODE HERE
-
+    let posArray = [];
+    for (i = 0; i < arr.length; i++) {
+        if (arr[i] > 0) {
+            posArray.push(arr[i]);
+        }
+    }
+    let posiSum = function () {
+        let x = 0;
+        for (i = 0; i < posArray.length; i++) {
+            x += posArray[i];
+        }
+        return(x);
+    }
+    return(posiSum());
 }
+console.log(sumPositive([1, -4, 7, 12]));
 
 module.exports = {
     calculateCube,
