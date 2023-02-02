@@ -1,5 +1,5 @@
 // 1.1. What is the difference between a parameter and an argument?
-    //A parameter acts as a placeholder for arguments to be passed when the function is called
+    //When defining a funciton, a parameter acts as a placeholder for arguments to be passed when the function is called
 // 1.2. Within a function, what is the difference between return and console.log?
     //Console.log sends text to the console. Return provides a value that can be used at other points in the code. i.e. "let randVariable = randFunction(arg1, arg2);" sets randVariable to the value returned when calling randFunction.
 
@@ -52,7 +52,7 @@ function checkPrime(num) {
         }
         return true; //<--- Does this count as an "else" without it needing to be spcifically indicated?
       }
-     //Found this on Stack Overflow by Tomachi. I mostly get it, but I can't quite get my head around how the 'for' loop works here or why it's necessary. 
+     //Found this on Stack Overflow by Tomachi. I mostly get it, but I can just barely get my head around how the loop works. 
 console.log(checkPrime(2));
 
 // 6.2 printPrimes
