@@ -44,8 +44,10 @@ console.log(sumArray([1, 2, 3, 4, 5, 6]))
 // 6.1 checkPrime
 function checkPrime(num) {
     // YOUR CODE HERE
-    
+    return(num % 2 !== 0);
+
 }
+console.log(checkPrime(6));
 
 // 6.2 printPrimes
 function printPrimes(num) {
